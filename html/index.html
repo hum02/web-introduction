@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en" xmlns:border-bottom="http://www.w3.org/1999/xhtml">
+<link rel="stylesheet" href="../css/style.css">
+
+<head>
+    <meta charset="UTF-8">
+    <title>dochi dochi</title>
+    <script language = "javascript">
+
+function selectChkBox(frm) {
+
+var sum = 0;
+var count = frm.checkbox.length;
+  for(var i=0; i < count; i++ ){
+       if( frm.checkbox[i].checked == true ){
+	    sum += 1;
+		}
+  }
+  var name = document.getElementById("nameIn");
+  alert(name.value+ "님, 저와" + sum + "개의 취향이 같으시네요!" );
+}
+    </script>
+</head>
+
+<body>
+<div>
+<h1>자기 소개</h1>
+<p> 이름: 도치(김동흠) </p>
+<p> 사는 곳: 용산구 </p>
+<p> 안녕하세요~~ 저는 도치입니다. 프로그래밍을 공부하는 소시민입니다.
+    <br>
+취미는 누워서 유투브보기, 가끔 칼바람하기, 카페에서 책읽기
+    정도가 있습니다.</p>
+</div>
+
+<div>
+    <h1>인생영화 BEST5 </h1>
+    <table>
+        <colgroup>
+            <col width="10%"/>
+            <col width="10%"/>
+            <col width="30%"/>
+            <col width="40%"/>
+            <col width="10%"/>
+        </colgroup>
+
+        <tr>
+            <td>1</td>
+            <td>니모를 찾아서</td>
+            <td><img src = "../images/poster1.jpg" d = "poster1" ></td>
+            <td >호기심 가득한 아기 물고기 ‘니모’가 인간에게 납치되자 아들바보 아빠 ‘말린’은 상상초월 위험이 도사리고 있는 바다로 아들을 구하기 위한 모험을 떠난다. 건망증이 심한 수다쟁이 물고기 ‘도리’와 함께 떠나는 모험에서 ‘말린’은 과연 아들을 구해낼 수 있을까?</td>
+            <td> <a href = "https://movie.naver.com/movie/bi/mi/basic.naver?code=32116" >클릭</a></td>
+        </tr>
+
+        <tr>
+            <td>2</td>
+            <td>메멘토</td>
+            <td><img src = "../images/poster2.jpg" d = "poster2" ></td>
+            <td >아내가 살해당한 후,
+                10분밖에 기억 못하는 단기기억상실증에 걸린 남자가
+                사진, 메모, 문신으로 남긴 기록을 따라 범인을 쫓는 기억 추적 스릴러</td>
+            <td> <a href = "https://movie.naver.com/movie/bi/mi/basic.naver?code=31940">클릭</a></td>
+
+        </tr>
+        <tr>
+            <td>3</td>
+            <td>위플래쉬</td>
+            <td><img src = "../images/poster3.jpg" d = "poster3" ></td>
+            <td > 뉴욕의 명문 셰이퍼 음악학교에서
+                최고의 스튜디오 밴드에 들어가게 된 신입생 '앤드류'
+                 최고의 지휘자이지만 동시에 최악의 폭군인 '플레쳐'교수는
+                폭언과 학대로 '앤드류'를 한계까지 몰아붙이고 또 몰아붙인다.
+                드럼 주위로 뚝뚝 떨어지는 피,
+                 빠르게 달리는 선율 뒤로 아득해지는 의식,
+                그 순간, 드럼에 대한 앤드류의 집착과 광기가 폭발한다.</td>
+            <td> <a href = "https://movie.naver.com/movie/bi/mi/basic.naver?code=119632">클릭</a></td>
+
+        </tr>
+        <tr>
+            <td>4</td>
+            <td>굿 윌 헌팅</td>
+            <td><img src = "../images/poster4.jpg" d = "poster4" ></td>
+            <td >수학, 법학, 역사학 등 모든 분야에 재능이 있는 ‘윌’(맷 데이먼)은
+                천재적인 두뇌를 가지고 있지만 어린 시절 받은 상처로 인해
+                세상에 마음을 열지 못하는 불우한 반항아.
+
+                절친인 ‘처키’(벤 애플렉)와 어울리던
+                ‘윌’의 재능을 알아본 MIT 수학과 ‘램보’ 교수는
+                대학 동기인 심리학 교수 ‘숀’(로빈 윌리엄스)에게 그를 부탁하게 되고
+                거칠기만 하던 ‘윌’은 ‘숀’과 함께 시간을 보낼수록
+                상처를 위로 받으며 조금씩 변화하기 시작하는데…</td>
+            <td> <a href = "https://movie.naver.com/movie/bi/mi/basic.naver?code=19079">클릭</a></td>
+
+        </tr>
+        <tr>
+            <td>5</td>
+            <td>어벤져스:엔드게임</td>
+            <td><img src = "../images/poster5.jpg" d = "poster5" ></td>
+            <td width="300">인피니티 워 이후 절반만 살아남은 지구
+                마지막 희망이 된 어벤져스
+                먼저 떠난 그들을 위해 모든 것을 걸었다!
+                위대한 어벤져스
+                운명을 바꿀 최후의 전쟁이 펼쳐진다!</td>
+            <td> <a href = "https://movie.naver.com/movie/bi/mi/basic.naver?code=136900">클릭</a></td>
+        </tr>
+    </table>
+</div>
+
+
+<div>
+    <h1>방명록</h1>
+    <p>본인 취향 영화</p>
+    <form name="form">
+        이름: <input type = "text" name = "name" id = "nameIn">
+        <input type = "checkbox" name = "checkbox" id="1">니모를 찾아서
+        <input type = "checkbox" name = "checkbox" id="2">메멘토
+        <input type = "checkbox" name = "checkbox" id="3">위플래쉬
+        <input type = "checkbox" name = "checkbox" id="4">굿 윌 헌팅
+        <input type = "checkbox" name = "checkbox" id="5">어벤져스:엔드게임
+    <br><br>
+    <button type="button" onClick="selectChkBox(this.form)">등록 </button>
+    <button type="reset">취소 </button>
+    </form>
+</div>
+
+</body>
+</html>
